@@ -1,3 +1,36 @@
+.bg-amz-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100vh;
+    background-image: url("images/AMZ.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.bg-gob-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25vw;
+    height: 100vh;
+    background-image: url("images/Gobs3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+}
+
 body{
     font-family:Segoe UI,Arial,sans-serif;
     max-width:1000px;
