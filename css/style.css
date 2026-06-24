@@ -11,7 +11,7 @@ body{
             rgba(0,0,0,0) 40%,
             rgba(0,0,0,0.5) 100%
         ),
-        url('images/wp.jpg');
+        url('../images/wp.jpg')
 
     background-size:cover;
     background-position:center;
