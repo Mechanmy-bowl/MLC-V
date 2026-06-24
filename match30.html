@@ -10,12 +10,12 @@
     left: 0;
     width: 25vw;
     height: 100vh;
-    background-image: url("images/AMZ.png");
+    background-image: url("images/AMZ-left.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     opacity: 0.2;
-    z-index: -1;
+    z-index: 0;
 }
 
 .bg-right {
@@ -29,10 +29,12 @@
     background-position: center;
     background-size: contain;
     opacity: 0.2;
-    z-index: -1;
+    z-index: 0;
 }
 </style>
 <body>
+    position: relative;
+    z-index: 1;
     <div class="bg-left"></div>
     <div class="bg-right"></div>
 <h1><span style="color:#17BEBB;font-weight:600">Perpi's Spicy Fruits</span> VS <span style="color:#8B1E3F;font-weight:600">Ierp's Gentleboomers</span></h1>
