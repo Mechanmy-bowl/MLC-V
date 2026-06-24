@@ -4,6 +4,19 @@ body{
     margin:auto;
     line-height:1.45;
     text-align: center
+    
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(0,0,0,0) 40%,
+            rgba(0,0,0,0.5) 100%
+        ),
+        url('wp.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 pre{
