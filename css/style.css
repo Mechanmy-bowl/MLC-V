@@ -6,11 +6,13 @@ body{
     text-align:center;
 
     background:
-        radial-gradient(
-            ellipse at center,
-            rgba(255,255,255,0.75) 0%,
-            rgba(255,255,255,0.35) 45%,
-            rgba(255,255,255,0) 85%
+        linear-gradient(
+            to right,
+            rgba(255,255,255,0) 0%,
+            rgba(255,255,255,0.35) 20%,
+            rgba(255,255,255,0.75) 50%,
+            rgba(255,255,255,0.35) 80%,
+            rgba(255,255,255,0) 100%
         ),
         url('../images/wp.jpg');
 
@@ -19,7 +21,6 @@ body{
     background-repeat:no-repeat;
     background-attachment:fixed;
 
-    position:relative;
     min-height:100vh;
 }
 
