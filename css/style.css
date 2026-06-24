@@ -1,10 +1,10 @@
 body{
-    font-family:Segoe UI,Arial,sans-serif;
+    font-family: Segoe UI, Arial, sans-serif;
     max-width:1000px;
     margin:auto;
     line-height:1.45;
-    text-align: center;
-    
+    text-align:center;
+
     background:
         radial-gradient(
             ellipse at center,
@@ -17,6 +17,17 @@ body{
     background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
+
+    position:relative;
+    min-height:100vh;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.25);
+    z-index:-1;
 }
 
 pre{
