@@ -58,3 +58,12 @@ a{
         -1px  1px 1px rgba(0,0,0,0.2),
          1px  1px 1px rgba(0,0,0,0.2);
 }
+    .score{
+    color:#FFFFFF;
+    font-weight:3000;
+     text-shadow:
+        -1px -1px 1px rgba(0,0,0,0.4),
+         1px -1px 1px rgba(0,0,0,0.4),
+        -1px  1px 1px rgba(0,0,0,0.4),
+         1px  1px 1px rgba(0,0,0,0.4);
+}
