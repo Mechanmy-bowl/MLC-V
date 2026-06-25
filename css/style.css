@@ -1,3 +1,12 @@
+main{
+    position:relative;
+    z-index:1;
+
+    background:rgba(255,255,255,0.15);
+    border-radius:12px;
+    padding:20px;
+}
+
 body{
     font-family: Segoe UI, Arial, sans-serif;
     max-width:1000px;
@@ -23,7 +32,6 @@ body{
 
     min-height:100vh;
     
-}
 }
 
 
