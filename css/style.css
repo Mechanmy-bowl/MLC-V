@@ -100,18 +100,7 @@ a{
 } 
 
 .titre-match{
-    position: sticky;
-    top: 0;
-    left: 50%;
-    width: 100vw;
-    margin-left: -50vw;
-
-    height:312px;
-
-    background:url("../images/wp312.jpg") center top / cover no-repeat;
-
-    z-index:1000;
-
+    position: relative
     display:flex;
     justify-content:space-between;
     align-items:center;
