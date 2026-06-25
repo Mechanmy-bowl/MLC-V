@@ -99,3 +99,26 @@ a{
     margin-bottom: 100px;
 } 
 
+.titre-match{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre-match span:first-child{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.titre-match span:last-child{
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.vs{
+    flex: 0 0 auto;
+    font-weight: bold;
+}
+
