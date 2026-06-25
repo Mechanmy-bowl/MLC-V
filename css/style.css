@@ -4,6 +4,7 @@ body{
     margin:auto;
     line-height:1.45;
     text-align:center;
+    text-shadow: 0 0 4px rgba(255,255,255,0.7);
 
     background:
         linear-gradient(
@@ -22,6 +23,8 @@ body{
     background-attachment:fixed;
 
     min-height:100vh;
+    
+}
 }
 
 
