@@ -47,9 +47,19 @@ a{
 .amazone{
     color:#17BEBB;
     font-weight:700;
+    text-shadow:
+        -1px -1px 1px rgba(0,0,0,0.2),
+         1px -1px 1px rgba(0,0,0,0.2),
+        -1px  1px 1px rgba(0,0,0,0.2),
+         1px  1px 1px rgba(0,0,0,0.2);
 }
 
 .gobelin{
     color:#8B1E3F;
     font-weight:700;
+     text-shadow:
+        -1px -1px 1px rgba(0,0,0,0.2),
+         1px -1px 1px rgba(0,0,0,0.2),
+        -1px  1px 1px rgba(0,0,0,0.2),
+         1px  1px 1px rgba(0,0,0,0.2);
 }
