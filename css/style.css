@@ -79,6 +79,25 @@ a{
          1px  1px 1px rgba(0,0,0,0.4);
 }
 
+.delf{
+    color:#D0FC08;
+    font-weight:700;
+     text-shadow:
+        -1px -1px 1px rgba(0,0,0,0.4),
+         1px -1px 1px rgba(0,0,0,0.4),
+        -1px  1px 1px rgba(0,0,0,0.4),
+         1px  1px 1px rgba(0,0,0,0.4);
+}
+
+.hobbit{
+    color:#D9BC1E;
+    font-weight:700;
+     text-shadow:
+        -1px -1px 1px rgba(0,0,0,0.4),
+         1px -1px 1px rgba(0,0,0,0.4),
+        -1px  1px 1px rgba(0,0,0,0.4),
+         1px  1px 1px rgba(0,0,0,0.4);
+}
 
     .score{
     color:#FFFFFF;
