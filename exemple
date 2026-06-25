@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+       <a href="index.html">
+        Retour au sommaire
+    </a>
+<title>Compte rendu Blood Bowl</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+.bg-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100vh;
+    background-image: url("images/AMZ-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.bg-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25vw;
+    height: 100vh;
+    background-image: url("images/Gobs3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+</style>
+<body>
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+<main>
+<h1><span class="amazone">Perpi's Spicy Fruits</span> VS <span class="gobelin">Ierp's Gentleboomers</span></h1>
+<pre>﻿
+
+<img src="https://i.ibb.co/d4RSHzJL/Logo-Ogre-01.png" style="max-height:200px"> <img src="https://i.ibb.co/PvXBJv13/VS256.png" style="max-height:200px"><img src="https://i.ibb.co/4wpBHBV1/Logo-Neutre-12.png" style="max-height:200px">  
+
+<b>Introduction :</b> 
+
+<b>Prime de match :</b> 
+<b>Météo :</b> 
+<b>Toss :</b> 
+
+<b>-1- Evènement :</b> Rien
+
+<b>T1 </b>
+
+<b>T2</b>
+
+<b>T3</b>
+
+<b>T4</b>
+
+<b>T5</b>
+
+<b>T6</b>
+
+<b>T7</b>
+
+<b>T8</b>
+
+
+<b>-2- Evènement :</b> Rien
+<b>T9</b>
+
+<b>T10</b>
+
+<b>T11</b>
+
+<b>T12</b>
+
+<b>T13</b>
+
+<b>T14</b>
+
+<b>T15</b>
+
+<b>T16</b>
+
+
+<b>Conclusion :</b>
+
+
+<span class="score"> 0 - 0 </span>
+
+<a href="https://i.ibb.co/XkDH4h3J/20260624100759-1.jpg">    </a>
+
+
+
+
+
+
+</pre>
+</main>
+</body></html>
