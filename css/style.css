@@ -60,7 +60,8 @@ a{
 }
     .score{
     color:#FFFFFF;
-    font-weight:3000;
+    font-weight:700;
+    font-size:24px;
      text-shadow:
         -1px -1px 1px rgba(0,0,0,0.4),
          1px -1px 1px rgba(0,0,0,0.4),
