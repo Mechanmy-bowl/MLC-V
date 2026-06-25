@@ -100,6 +100,12 @@ a{
 } 
 
 .titre-match{
+    position: sticky;
+    top: 0;
+    background: #f4f4f4; /* même couleur que le fond */
+    z-index: 1000;
+    padding: 10px 0;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
