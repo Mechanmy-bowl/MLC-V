@@ -104,7 +104,6 @@ a{
     background: transparent !important;
     top: 0;
     z-index: 1000;
-    height: 60px;
     padding: 10px 0;
     
     display: flex;
@@ -129,11 +128,3 @@ a{
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.contenu{
-    padding-top: 20px;
-}
