@@ -122,3 +122,7 @@ a{
     font-weight: bold;
 }
 
+.bandeau{
+    display:grid;
+    grid-template-columns:1fr auto 1fr;
+}
