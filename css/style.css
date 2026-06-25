@@ -102,20 +102,19 @@ a{
 .titre-match{
     position: sticky;
     top: 0;
-    z-index: 1000;
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
 
-    height: 312px;
+    height:312px;
 
-    background-image: url("../images/wp312.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 100% 312px;
+    background:url("../images/wp312.jpg") center top / cover no-repeat;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index:1000;
 
-    padding: 0 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .titre-match span:first-child{
