@@ -70,14 +70,15 @@ a{
 }
 
 .ogre{
-    color:#FF8000;
+    color:#FFA500;
+    -webkit-text-stroke: 1px #000;
     font-weight:700;
      text-shadow:
         -1px -1px 1px rgba(0,0,0,0.4),
          1px -1px 1px rgba(0,0,0,0.4),
         -1px  1px 1px rgba(0,0,0,0.4),
          1px  1px 1px rgba(0,0,0,0.4);
-
+}
 
 
     .score{
