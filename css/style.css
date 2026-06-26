@@ -223,3 +223,11 @@ a{
     margin-bottom: 100px; /* espace au-dessous */
 } 
 
+.texte {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
