@@ -56,6 +56,8 @@ a{
     align-items:center;
     gap:10px;
 
+    margin-bottom:-15px;   /* rapproche les lignes */
+
     text-decoration:none;
     color:white;
     font-weight:bold;
