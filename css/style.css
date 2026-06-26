@@ -36,31 +36,55 @@ a{
     text-decoration:none;
 }
 
-/* menu fixe prevsommaire/next */
-.menu-fixe {
-    position: fixed;
-    top: 20px;
-    left: 20px;
+/* Menu fixe Blood Bowl */
 
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.menu-fixe{
+    position:fixed;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
 
-    z-index: 1000;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+    z-index:1000;
 }
 
-.menu-fixe a {
-    display: block;
-    padding: 8px 12px;
-    background: rgba(0,0,0,0.75);
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
+.menu-fixe a{
+
+    width:240px;
+    height:95px;
+
+    background-image:url("images/ballon-bb.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#f6e7c3;
+    font-family:Impact, Haettenschweiler, Arial Black, sans-serif;
+    font-size:22px;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform:uppercase;
+
+    text-shadow:
+        2px 2px 0 #000,
+       -2px -2px 0 #000,
+        2px -2px 0 #000,
+       -2px 2px 0 #000,
+        0 0 6px #000;
+
+    transition:transform .15s ease, filter .15s ease;
 }
 
-.menu-fixe a:hover {
-    background: rgba(255,255,255,0.2);
+.menu-fixe a:hover{
+    transform:scale(1.08);
+    filter:brightness(1.15);
 }
 
 /* illustration gauche */
