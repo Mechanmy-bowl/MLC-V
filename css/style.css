@@ -104,7 +104,7 @@ main{
 .bg-left {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 2%;
     width: 25vw;
     height: 100vh;
 
@@ -120,7 +120,7 @@ main{
 .bg-right {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 2%;
     width: 25vw;
     height: 100vh;
 
