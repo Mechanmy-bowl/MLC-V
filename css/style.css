@@ -185,21 +185,22 @@ a{
     line-height:0,5;
 }
 
-.nom-gauche,
+.nom-gauche{
+    position: fixed;
+    left: 0;
+    top: 80%;
+    width: 25vw;
+    text-align: center;
+
+    transform: translate(15px, 10px);
+}
+
 .nom-droite{
     position: fixed;
-    top: 80%;          /* à ajuster */
-    width: 25vw;       /* même largeur que les images */
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-    z-index: 1;
-}
-
-.nom-gauche{
-    left: 0;
-}
-
-.nom-droite{
     right: 0;
+    top: 80%;
+    width: 25vw;
+    text-align: center;
+
+    transform: translate(-15px, 10px);
 }
