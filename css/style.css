@@ -41,7 +41,7 @@ a{
 /* Menu fixe Blood Bowl SOMMAIRE et Match */
 .menu-fixe{
     position:fixed;
-    top:20px;
+    top:5px;
     left: 50%;
     transform: translateX(-50%);
 
