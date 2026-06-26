@@ -1,11 +1,21 @@
+/* virer la marge du navigateur par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* corps de texte et background */
 
 body{
     font-family: Segoe UI, Arial, sans-serif;
     max-width:1000px;
-    margin:auto;
+    margin:0;
+    margin-left: auto;
+    margin-right: auto;
     line-height:1.45;
     text-align:center;
+    
 
     background:
         linear-gradient(
@@ -41,7 +51,7 @@ a{
 /* Menu fixe Blood Bowl SOMMAIRE et Match */
 .menu-fixe{
     position:fixed;
-    top:5px;
+    top:0;
     left: 50%;
     transform: translateX(-50%);
 
