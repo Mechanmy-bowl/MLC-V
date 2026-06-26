@@ -79,6 +79,7 @@ a{
     height:160px;
     object-fit:contain;
     transition:transform .15s;
+      background:red;
 }
 
 .menu-fixe a:hover img{
