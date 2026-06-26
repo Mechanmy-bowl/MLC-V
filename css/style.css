@@ -242,7 +242,7 @@ main{
 .texte {
     color: white;
     background: rgba(0, 0, 0, 0.6);
-    padding: 10px 15px;
+    padding: 10px 13px;
     border-radius: 8px;
     display: inline-block;
 }
