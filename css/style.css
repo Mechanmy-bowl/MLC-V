@@ -71,7 +71,7 @@ main{
 .menu-fixe a{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:30px;
 
     margin-bottom:0px;   /* rapproche les lignes */
 
