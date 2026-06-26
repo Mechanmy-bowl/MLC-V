@@ -37,53 +37,46 @@ a{
 }
 
 /* Menu fixe Blood Bowl */
-
 .menu-fixe{
     position:fixed;
+    top:20px;
     left:20px;
-    top:20%;
 
     display:flex;
     flex-direction:column;
-    gap:18px;
+    gap:12px;
 
     z-index:1000;
 }
 
 .menu-fixe a{
-
-    width:240px;
-    height:95px;
-
-    background-image:url("images/ballon.png");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:contain;
-
     display:flex;
-    justify-content:center;
     align-items:center;
+    gap:10px;
 
-    color:#f6e7c3;
-    font-family:Impact, Haettenschweiler, Arial Black, sans-serif;
-    font-size:22px;
-    font-weight:bold;
     text-decoration:none;
-    text-transform:uppercase;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
 
     text-shadow:
-        2px 2px 0 #000,
-       -2px -2px 0 #000,
-        2px -2px 0 #000,
-       -2px 2px 0 #000,
+        2px 2px 2px #000,
         0 0 6px #000;
-
-    transition:transform .15s ease, filter .15s ease;
 }
 
 .menu-fixe a:hover{
-    transform:scale(1.08);
-    filter:brightness(1.15);
+    color:#ffd34d;
+}
+
+.menu-fixe img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+    transition:transform .15s;
+}
+
+.menu-fixe a:hover img{
+    transform:scale(1.15) rotate(-8deg);
 }
 
 /* illustration gauche */
