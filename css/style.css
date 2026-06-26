@@ -38,7 +38,7 @@ a{
     text-decoration:none;
 }
 
-/* Menu fixe Blood Bowl */
+/* Menu fixe Blood Bowl SOMMAIRE et Match */
 .menu-fixe{
     position:fixed;
     top:20px;
@@ -71,8 +71,8 @@ a{
 }
 
 .menu-fixe img{
-    width:90px;
-    height:90px;
+    width:130px;
+    height:130px;
     object-fit:contain;
     transition:transform .15s;
 }
