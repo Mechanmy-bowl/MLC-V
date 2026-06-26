@@ -154,3 +154,22 @@ a{
     font-weight: 700;
     line-height:0,5;
 }
+
+.nom-gauche,
+.nom-droite{
+    position: fixed;
+    top: 75%;          /* à ajuster */
+    width: 25vw;       /* même largeur que les images */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.nom-gauche{
+    left: 0;
+}
+
+.nom-droite{
+    right: 0;
+}
