@@ -188,7 +188,7 @@ a{
 .nom-gauche,
 .nom-droite{
     position: fixed;
-    top: 75%;          /* à ajuster */
+    top: 80%;          /* à ajuster */
     width: 25vw;       /* même largeur que les images */
     text-align: center;
     font-size: 2rem;
