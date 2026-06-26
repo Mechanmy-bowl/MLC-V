@@ -207,6 +207,7 @@ a{
     margin-bottom: 100px; /* espace au-dessous */
 } 
 
+/* cadre grisatre pour la lecture */
 .texte {
     color: white;
     background: rgba(0, 0, 0, 0.6);
