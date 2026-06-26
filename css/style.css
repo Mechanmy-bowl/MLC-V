@@ -90,8 +90,8 @@ main{
 }
 
 .menu-fixe img{
-    width:160px;
-    height:160px;
+    width:140px;
+    height:140px;
     object-fit:contain;
     transition:transform .15s;
 }
@@ -171,7 +171,7 @@ main{
 .gobelin{
     color:#8B1E3F;
     font-weight:700;
-   -webkit-text-stroke: 1px white;
+   -webkit-text-stroke: 0px white;
 }
 
 .kislev{
