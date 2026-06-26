@@ -161,13 +161,13 @@ main{
 .amazone{
     color:#17BEBB;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
+   -webkit-text-stroke: 1px black;
 }
 
 .gobelin{
     color:#8B1E3F;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
+   -webkit-text-stroke: 1px white;
 }
 
 .kislev{
