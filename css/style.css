@@ -71,8 +71,8 @@ a{
 }
 
 .menu-fixe img{
-    width:42px;
-    height:42px;
+    width:90px;
+    height:90px;
     object-fit:contain;
     transition:transform .15s;
 }
