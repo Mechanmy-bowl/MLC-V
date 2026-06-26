@@ -188,7 +188,7 @@ a{
 .nom-gauche{
     position: fixed;
     left: 0;
-    top: 80%;
+    top: 75%;
     width: 25vw;
     text-align: center;
 
@@ -198,7 +198,7 @@ a{
 .nom-droite{
     position: fixed;
     right: 0;
-    top: 80%;
+    top: 75%;
     width: 25vw;
     text-align: center;
 
