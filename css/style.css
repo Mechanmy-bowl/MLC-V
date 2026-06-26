@@ -63,7 +63,7 @@ main{
     display:flex;
     flex-direction:row;
     align-items: center;
-    gap:5px;
+    gap:15px;
 
     z-index:1000;
 }
