@@ -241,7 +241,7 @@ main{
 /* cadre grisatre pour la lecture */
 .texte {
     color: white;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.85);
     padding: 10px 13px;
     border-radius: 8px;
     display: inline-block;
