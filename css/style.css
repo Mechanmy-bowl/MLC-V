@@ -90,8 +90,8 @@ main{
 }
 
 .menu-fixe img{
-    width:140px;
-    height:140px;
+    width:110px;
+    height:110px;
     object-fit:contain;
     transition:transform .15s;
 }
