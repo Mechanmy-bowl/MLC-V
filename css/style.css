@@ -68,6 +68,31 @@ a{
     z-index: 0;
 }
 
+/* noms d'équipes à gauche et droite */
+.nom-gauche,
+.nom-droite{
+    position: fixed;
+    top: 75%;
+    width: 25vw;
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+    transform: translateY(10px);
+}
+
+.nom-gauche{
+    left: 0;
+    transform: translate(15px, 10px);
+}
+
+.nom-droite{
+    right: 0;
+    transform: translate(-15px, 10px);
+}
+
+
 /* couleurs de texte des différentes équipes/score */
 .amazone{
     color:#17BEBB;
@@ -149,63 +174,3 @@ a{
     margin-bottom: 100px; /* espace au-dessous */
 } 
 
-/* texte Amazones */
-.titre-match{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.titre-match span:first-child{
-    flex: 1;
-    text-align: right;
-    padding-right: 20px;
-}
-
-.titre-match span:last-child{
-    flex: 1;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.vs{
-    flex: 0 0 auto;
-    font-weight: bold;
-}
-
-.bandeau{
-    display:grid;
-    grid-template-columns: 1fr auto 1fr;
-    row-gap: 5px;
-    align-content: start;
-}
-
-.equipe-gauche,
-.equipe-droite{
-    font-size: clamp(1.2rem, 2vw, 2rem);
-    font-weight: 700;
-    line-height:0,5;
-}
-
-.nom-gauche,
-.nom-droite{
-    position: fixed;
-    top: 75%;
-    width: 25vw;
-    text-align: center;
-
-    font-size: 2rem;
-    font-weight: 700;
-
-    transform: translateY(10px);
-}
-
-.nom-gauche{
-    left: 0;
-    transform: translate(15px, 10px);
-}
-
-.nom-droite{
-    right: 0;
-    transform: translate(-15px, 10px);
-}
