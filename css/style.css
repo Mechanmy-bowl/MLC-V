@@ -57,7 +57,7 @@ main{
 .menu-fixe{
     position:fixed;
     top:0;
-    left: 16%;
+    left: 15.5%;
     transform: translateX(-50%);
 
     display:flex;
@@ -147,12 +147,12 @@ main{
 }
 
 .nom-gauche{
-    left: 4%;
+    left: 2%;
     transform: translate(15px, 10px);
 }
 
 .nom-droite{
-    right: 4%;
+    right: 2%;
     transform: translate(-15px, 10px);
 }
 
