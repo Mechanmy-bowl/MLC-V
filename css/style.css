@@ -1,7 +1,4 @@
-main{
-    position:relative;
-    z-index:1;
-}
+/* corps de texte et background */
 
 body{
     font-family: Segoe UI, Arial, sans-serif;
@@ -39,6 +36,7 @@ a{
     text-decoration:none;
 }
 
+/* illustration gauche */
 .bg-left {
     position: fixed;
     top: 0;
@@ -54,6 +52,7 @@ a{
     z-index: 0;
 }
 
+/* illustration droite */
 .bg-right {
     position: fixed;
     top: 0;
@@ -69,6 +68,7 @@ a{
     z-index: 0;
 }
 
+/* couleurs de texte des différentes équipes/score */
 .amazone{
     color:#17BEBB;
     font-weight:700;
@@ -140,14 +140,16 @@ a{
          1px  1px 1px rgba(0,0,0,0.4);
 }
 
+/* forcer un espace depuis paragraphe bas/haut */
 .bas {
     margin-top: 100px; /* espace au-dessus */
 }
 
 .haut {
-    margin-bottom: 100px;
+    margin-bottom: 100px; /* espace au-dessous */
 } 
 
+/* texte Amazones */
 .titre-match{
     display:flex;
     justify-content:space-between;
