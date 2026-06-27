@@ -224,13 +224,24 @@ main::-webkit-scrollbar{
 }
 
 .gobelin{
-    font-family:"Gutcruncher", sans-serif;
     color:#8B1E3F;
     font-weight:500;
     -webkit-text-stroke:1px white;
 }
 
 .gobelin:hover{
+    color:#FF3030;              /* rouge vif */
+    text-shadow:0 0 6px #FF3030;
+}
+
+.gobelinteam{
+    font-family:"Gutcruncher", sans-serif;
+    color:#8B1E3F;
+    font-weight:500;
+    -webkit-text-stroke:1px white;
+}
+
+.gobelinteam:hover{
     color:#FF3030;              /* rouge vif */
     text-shadow:0 0 6px #FF3030;
 }
