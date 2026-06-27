@@ -218,10 +218,20 @@ main{
    -webkit-text-stroke: 0.1px black;
 }
 
+.kislev:hover{
+    color:#FF3030;              /* rouge vif */
+    text-shadow:0 0 6px #FF3030;
+}
+
 .kislevteam{
     color:#FFFFFF;
     font-weight:500;
    -webkit-text-stroke: 1px black;
+}
+
+.kislevteam:hover{
+    color:#FF3030;              /* rouge vif */
+    text-shadow:0 0 6px #FF3030;
 }
 
 .ogre{
@@ -230,11 +240,22 @@ main{
    -webkit-text-stroke: 0.1px black;
 }
 
+.ogre:hover{
+    color:#00BFFF;              /* bleu vif */
+    text-shadow:0 0 6px #00BFFF;
+}
+
 .ogreteam{
     color:#FFA500;
     font-weight:500;
    -webkit-text-stroke: 1px black;
 }
+
+.ogreteam:hover{
+    color:#00BFFF;              /* bleu vif */
+    text-shadow:0 0 6px #00BFFF;
+}
+
 
 .delf{
     color:#D0FC08;
