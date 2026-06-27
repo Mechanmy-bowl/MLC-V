@@ -19,23 +19,7 @@ body{
     text-align:center;
     
 
-     background:
-            /* linear-gradient(
-        to right,
-        rgba(0,0,0,0)    0%,
-        rgba(0,0,0,0.35) 18%,
-        rgba(0,0,0,0.75) 45%,
-        rgba(0,0,0,0.85) 50%,
-        rgba(0,0,0,0.75) 55%,
-        rgba(0,0,0,0.35) 82%,
-        rgba(0,0,0,0)    100%
-    ),     */
-        url('../images/wpdark.jpg');
-
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+    background: url('../images/wpdark.jpg') center/cover no-repeat fixed;
 
     min-height:100vh;
 }
@@ -80,56 +64,6 @@ main{
         0 0 12px rgba(0,0,0,.8);
 
     padding:20px;
-}
-
-/* dégradé progressif du main vers le haut */
-main::before{
-    content:"";
-
-    position:sticky;
-    top:0;
-
-    display:block;
-
-    height:120px;
-
-    margin-top:-20px;
-    margin-bottom:-100px;
-
-    background:linear-gradient(
-        to bottom,
-        rgba(0,0,0,1) 0%,
-        rgba(0,0,0,.7) 40%,
-        rgba(0,0,0,.2) 80%,
-        rgba(0,0,0,0) 100%
-    );
-
-    pointer-events:none;
-
-    z-index:50;
-}
-
-/* Bandeau central pour les boutons qui fait disparaitre texte ? */
-.nav{
-    position:fixed;
-    top:0;
-    left:50%;
-    transform:translateX(-50%);
-
-    width:1000px;
-    height:170px;
-
-    pointer-events:none;
-    z-index:900;
-
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(0,0,0,.95) 0%,
-            rgba(0,0,0,.75) 35%,
-            rgba(0,0,0,.35) 70%,
-            rgba(0,0,0,0) 100%
-        );
 }
 
 
@@ -355,11 +289,4 @@ main::before{
     margin-bottom: 100px; /* espace au-dessous */
 } 
 
-/* cadre grisatre pour la lecture 
-.texte {
-    color: white;
-    background: rgba(0, 0, 0, 0.85);
-    padding: 10px 13px;
-    border-radius: 8px;
-    display: inline-block;
-} */
+
