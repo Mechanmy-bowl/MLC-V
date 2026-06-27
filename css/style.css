@@ -180,7 +180,7 @@ main::-webkit-scrollbar{
 .nom-droite{
     position: fixed;
     top: 75%;
-    width: 25vw;
+    width: 320vw;
     text-align: center;
 
     font-size: 30px;
