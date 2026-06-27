@@ -151,7 +151,7 @@ main::-webkit-scrollbar{
 .bloc-gauche,
 .bloc-droite{
     position:fixed;
-    top:0;
+    top:-30px;
     width:25vw;
     height:100vh;
 }
