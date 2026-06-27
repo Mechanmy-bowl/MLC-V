@@ -56,7 +56,7 @@ main{
     overflow-y:auto;
     overflow-x:hidden;
 
-    /* ajout */
+    /* masque la barre de défilement dégueu */
     scrollbar-width:none;
 
     color:#fff;
@@ -67,6 +67,22 @@ main{
         0 0 12px rgba(0,0,0,.8);
 
     padding:20px;
+    
+    /* Fondu du contenu vers le haut */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0px,
+        black 120px,
+        black 100%
+    );
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0px,
+        black 120px,
+        black 100%
+    );
+    
 }
 
 main::-webkit-scrollbar{
