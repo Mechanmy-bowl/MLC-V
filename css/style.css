@@ -214,8 +214,7 @@ main::-webkit-scrollbar{
 .amazoneteam{
     font-family:"Gutcruncher", sans-serif;
     color:#17BEBB;
-    font-size:2.2rem;      /* à ajuster */
-    font-weight:normal;     /* inutile avec cette police */
+    font-weight:500;
     -webkit-text-stroke:1px black;
 }
 
@@ -227,8 +226,7 @@ main::-webkit-scrollbar{
 .gobelin{
     font-family:"Gutcruncher", sans-serif;
     color:#17BEBB;
-    font-size:2.2rem;      /* à ajuster */
-    font-weight:normal;     /* inutile avec cette police */
+    font-weight:500;
     -webkit-text-stroke:1px white;
 }
 
