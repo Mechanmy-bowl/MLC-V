@@ -180,7 +180,7 @@ main::-webkit-scrollbar{
 /* noms d'équipes des blocs */
 .nom-equipe{
     position:absolute;
-    bottom:30px;
+    bottom:10px;
     left:50%;
     transform:translateX(-50%);
 
