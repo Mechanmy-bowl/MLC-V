@@ -65,14 +65,36 @@ a:hover{ /* quand la souris passe dessus */
 }
 
 
-/* le texte démarre un peu plus bas */
+/* le texte démarre un peu plus bas et se met en fondu progressif haut/bas*/
 main{
-    padding-top: 70px;
-        color:#fff;
+    padding-top:70px;
+    color:#fff;
+
     text-shadow:
         0 1px 2px #000,
         0 2px 6px #000,
         0 0 12px rgba(0,0,0,.8);
+
+    /* fondu haut + bas */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0px,
+        rgba(0,0,0,.15) 40px,
+        black 120px,
+        black calc(100% - 120px),
+        rgba(0,0,0,.15) calc(100% - 40px),
+        transparent 100%
+    );
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0px,
+        rgba(0,0,0,.15) 40px,
+        black 120px,
+        black calc(100% - 120px),
+        rgba(0,0,0,.15) calc(100% - 40px),
+        transparent 100%
+    );
 }
 
 /* Bandeau central pour les boutons */
