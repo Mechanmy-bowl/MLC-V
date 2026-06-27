@@ -69,47 +69,27 @@ main{
         0 0 12px rgba(0,0,0,.8);
 }
 
-/* voile qui fait disparaitre les éléments avant boutons */
-main::before{
-    content:"";
+/* Bandeau central pour les boutons qui fait disparaitre texte ? */
+.nav{
     position:fixed;
     top:0;
     left:50%;
     transform:translateX(-50%);
 
-    width:1000px;      /* même largeur que ton body */
+    width:1000px;
     height:170px;
 
-    background:linear-gradient(
-        to bottom,
-        rgba(0,0,0,1),
-        rgba(0,0,0,0)
-    );
-
     pointer-events:none;
-    z-index:5;
-}
+    z-index:900;
 
-
-/* Bandeau central pour les boutons */
-.nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: linear-gradient(
-        to bottom,
-        white 60%,
-        rgba(255,255,255,0)
-    );
-
-    z-index: 1000;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,.95) 0%,
+            rgba(0,0,0,.75) 35%,
+            rgba(0,0,0,.35) 70%,
+            rgba(0,0,0,0) 100%
+        );
 }
 
 
