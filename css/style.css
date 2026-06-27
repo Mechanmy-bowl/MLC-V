@@ -45,8 +45,8 @@ a:hover{ /* quand la souris passe dessus */
 main{
     position:fixed;
 
-    top:120px;          /* juste sous les ballons */
-    bottom:20px;        /* laisse un peu d'air en bas */
+    top:120px;
+    bottom:20px;
 
     left:50%;
     transform:translateX(-50%);
@@ -56,6 +56,9 @@ main{
     overflow-y:auto;
     overflow-x:hidden;
 
+    /* ajout */
+    scrollbar-width:none;
+
     color:#fff;
 
     text-shadow:
@@ -64,6 +67,10 @@ main{
         0 0 12px rgba(0,0,0,.8);
 
     padding:20px;
+}
+
+main::-webkit-scrollbar{
+    display:none;
 }
 
 
