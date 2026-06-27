@@ -51,6 +51,11 @@ a{
 /* le texte démarre un peu plus bas */
 main{
     padding-top: 70px;
+        color:#fff;
+    text-shadow:
+        0 1px 2px #000,
+        0 2px 6px #000,
+        0 0 12px rgba(0,0,0,.8);
 }
 
 /* Menu fixe Blood Bowl SOMMAIRE et Match */
@@ -238,12 +243,11 @@ main{
     margin-bottom: 100px; /* espace au-dessous */
 } 
 
-/* cadre grisatre pour la lecture */
+/* cadre grisatre pour la lecture 
 .texte {
     color: white;
     background: rgba(0, 0, 0, 0.85);
     padding: 10px 13px;
     border-radius: 8px;
     display: inline-block;
-}
-
+} */
