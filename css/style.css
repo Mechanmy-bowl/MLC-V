@@ -365,6 +365,10 @@ main::-webkit-scrollbar{
     text-shadow:0 2px 5px #000;
 }
 
+/* texte blanc par défaut pour plus utiliser le pre */
+.texte{
+    white-space:pre-wrap;
+}
 
 
 
