@@ -192,12 +192,12 @@ main::-webkit-scrollbar{
 
 .nom-gauche{
     left: 2%;
-    transform: translate(15px, 10px);
+    transform: translate(50px, 10px);
 }
 
 .nom-droite{
     right: 2%;
-    transform: translate(-15px, 10px);
+    transform: translate(-50px, 10px);
 }
 
 
