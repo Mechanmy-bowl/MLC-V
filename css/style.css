@@ -18,7 +18,17 @@ body{
     
 
     background:
-        linear-gradient(
+            linear-gradient(
+        to right,
+        rgba(0,0,0,0)    0%,
+        rgba(0,0,0,0.35) 18%,
+        rgba(0,0,0,0.75) 45%,
+        rgba(0,0,0,0.85) 50%,
+        rgba(0,0,0,0.75) 55%,
+        rgba(0,0,0,0.35) 82%,
+        rgba(0,0,0,0)    100%
+    ),
+       /* linear-gradient(
             to right,
             rgba(255,255,255,0)    0%,
             rgba(255,255,255,0.40) 18%,
@@ -27,7 +37,7 @@ body{
             rgba(255,255,255,0.95) 55%,
             rgba(255,255,255,0.40) 82%,
             rgba(255,255,255,0)    100%
-        ),
+        ),*/
         url('../images/wp.jpg');
 
     background-size:100% 100%, cover;
