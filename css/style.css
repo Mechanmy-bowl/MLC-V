@@ -75,11 +75,33 @@ main{
         0 0 12px rgba(0,0,0,.8);
 }
 
+/* Bandeau central pour les boutons */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        to bottom,
+        white 60%,
+        rgba(255,255,255,0)
+    );
+
+    z-index: 1000;
+}
+
+
 /* Menu fixe Blood Bowl SOMMAIRE et Match */
 .menu-fixe{
     position:fixed;
     top:0;
-    left: 15.5%;
+    left: 50%;
     transform: translateX(-50%);
 
     display:flex;
