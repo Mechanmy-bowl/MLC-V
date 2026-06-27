@@ -54,9 +54,16 @@ pre{
     font-family:inherit;
 }
 
+/* liens hypertextes */
 a{
-    text-decoration:none;
+    color:#6ec8ff;
+    text-decoration:underline;
 }
+
+a:hover{ /* quand la souris passe dessus */
+    color:#ffd34d;
+}
+
 
 /* le texte démarre un peu plus bas */
 main{
