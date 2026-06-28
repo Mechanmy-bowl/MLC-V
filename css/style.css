@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Gutcruncher";
-    src: url("../fonts/Gutcruncher Italic.otf") format("truetype");
+    src: url("../fonts/Gutcruncher Italic.otf") format("opentype");
 }
 
 /* texte blanc par défaut pour plus utiliser le pre */
@@ -175,6 +175,8 @@ main::-webkit-scrollbar{
     background-size:contain;
 
     opacity:.6;
+    z-index:0;
+    pointer-events:none;
 }
 
 /* noms des équipes */
@@ -190,13 +192,13 @@ main::-webkit-scrollbar{
 .nom-gauche{
     left:0;
     text-align:left;
-    padding-left:15px;
+    left:15px;
 }
 
 .nom-droite{
     right:0;
     text-align:right;
-    padding-right:15px;
+    right:15px;
 }
 
 /* forcer un espace depuis paragraphe bas/haut */
