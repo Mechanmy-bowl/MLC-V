@@ -180,12 +180,12 @@ main::-webkit-scrollbar{
 /* noms d'équipes des blocs */
 .nom-equipe{
     position:absolute;
-    bottom:100px;
+    bottom:80px;
     left:50%;
     transform:translateX(-50%);
 
     width:100%;
-    font-size:60px;
+    font-size:50px;
 }
 
 .nom-gauche{
@@ -195,7 +195,7 @@ main::-webkit-scrollbar{
 }
 
 .nom-droite{
-    right: 2%;
+    right: 4%;
     transform: translate(-30px, 10px);
         text-align:right;
 }
