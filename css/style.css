@@ -183,7 +183,7 @@ main::-webkit-scrollbar{
 .nom-gauche,
 .nom-droite{
     position:absolute;
-    bottom:90px;
+    bottom:120px;
     width:100%;
     font-size:30px;
     font-weight:700;
@@ -191,12 +191,12 @@ main::-webkit-scrollbar{
 
 .nom-gauche{
     text-align:left;
-    left:70px;
+    left:80px;
 }
 
 .nom-droite{
     text-align:right;
-    right:70px;
+    right:80px;
 }
 
 /* forcer un espace depuis paragraphe bas/haut */
