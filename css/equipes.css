@@ -6,19 +6,19 @@
 }
 
 .amazone:hover{
-    color:#00BFFF;              /* bleu vif */
+    color:#244BBF;              /* bleu vif */
     text-shadow:0 0 6px #00BFFF;
 }
 
 .amazoneteam{
     font-family:"Gutcruncher", sans-serif;
-    color:#244BBF;
+    color:#17BEBB;
     font-weight:700;
     -webkit-text-stroke:0.1px black;
 }
 
 .amazoneteam:hover{
-    color:#00BFFF;              /* bleu vif */
+    color:#244BBF;              /* bleu vif */
     text-shadow:0 0 6px #00BFFF;
 }
 
