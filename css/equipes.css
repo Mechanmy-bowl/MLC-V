@@ -48,28 +48,30 @@
 .amazoneteam{
     color:#17BEBB;
     font-weight:700;
-    -webkit-text-stroke:1px white;
+    -webkit-text-stroke:0.5px white;
 }
 
 .delfteam{
     color:#D0FC08;
     font-weight:700;
+}
 
 .gobelinteam{
     color:#8B1E3F;
     font-weight:700;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.5px black;
 }
 
 .hobbitteam{
     color:#D9BC1E;
     font-weight:700;
-    -webkit-text-stroke:1px black;
-
+    -webkit-text-stroke:0.5px black;
+}
+   
 .kislevteam{
     color:#fff;
     font-weight:700;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.5px black;
 }
 
 .necroteam{
