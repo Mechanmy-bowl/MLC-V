@@ -147,7 +147,7 @@ main::-webkit-scrollbar{
     transform:scale(1.15) rotate(-8deg);
 }
 
-/* blocs illustration et texte gauche et droite*/
+/* blocs illustration et texte */
 .bloc-gauche,
 .bloc-droite{
     position:fixed;
@@ -164,7 +164,7 @@ main::-webkit-scrollbar{
     right:2%;
 }
 
-/* images des blocs*/
+/* images */
 .bg-left,
 .bg-right{
     width:100%;
@@ -180,23 +180,23 @@ main::-webkit-scrollbar{
 /* noms des équipes */
 .nom-gauche,
 .nom-droite{
-    position: fixed;
-    top: 65%;
-    width: 25vw;
-    font-size: 30px;
-    font-weight: 700;
+    position:absolute;
+    bottom:90px;
+    width:100%;
+    font-size:30px;
+    font-weight:700;
 }
 
 .nom-gauche{
-    left: 2%;
-    transform: translate(15px, 10px);
+    left:0;
     text-align:left;
+    padding-left:15px;
 }
 
 .nom-droite{
-    right: 2%;
-    transform: translate(-15px, 10px);
+    right:0;
     text-align:right;
+    padding-right:15px;
 }
 
 /* forcer un espace depuis paragraphe bas/haut */
