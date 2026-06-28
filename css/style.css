@@ -164,7 +164,7 @@ main::-webkit-scrollbar{
     right:2%;
 }
 
-/* images */
+/* images des blocs */
 .bg-left,
 .bg-right{
     width:100%;
@@ -179,7 +179,7 @@ main::-webkit-scrollbar{
     pointer-events:none;
 }
 
-/* noms des équipes */
+/* noms des équipes des blocs */
 .nom-gauche,
 .nom-droite{
     position:absolute;
@@ -190,15 +190,13 @@ main::-webkit-scrollbar{
 }
 
 .nom-gauche{
-    left:0;
     text-align:left;
-    left:15px;
+    right:30px;
 }
 
 .nom-droite{
-    right:0;
     text-align:right;
-    right:15px;
+    left:30px;
 }
 
 /* forcer un espace depuis paragraphe bas/haut */
