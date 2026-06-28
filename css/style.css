@@ -191,12 +191,12 @@ main::-webkit-scrollbar{
 
 .nom-gauche{
     text-align:left;
-    left:30px;
+    left:60px;
 }
 
 .nom-droite{
     text-align:right;
-    right:30px;
+    right:60px;
 }
 
 /* forcer un espace depuis paragraphe bas/haut */
