@@ -177,6 +177,28 @@ main::-webkit-scrollbar{
     opacity:.6;
 }
 
+/* noms des équipes */
+.nom-gauche,
+.nom-droite{
+    position: fixed;
+    top: 75%;
+    width: 25vw;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nom-gauche{
+    left: 2%;
+    transform: translate(15px, 10px);
+}
+
+.nom-droite{
+    right: 2%;
+    transform: translate(-15px, 10px);
+}
+
 /* forcer un espace depuis paragraphe bas/haut */
 .bas {
     margin-top: 100px; /* espace au-dessus */
