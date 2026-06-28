@@ -1,35 +1,10 @@
+/* ==========================================================
+   RACES (couleurs des noms dans le texte)
+   ========================================================== */
 
-/* couleurs de texte des différentes équipes/score */
 .amazone{
     color:#17BEBB;
     font-weight:700;
-}
-
-.amazone:hover{
-    color:#00BFFF;              /* bleu vif */
-    text-shadow:0 0 6px #00BFFF;
-}
-
-.amazoneteam{
-    font-family:"Gutcruncher", sans-serif;
-    color:#17BEBB;
-    font-weight:700;
-    -webkit-text-stroke:0.1px black;
-}
-
-.amazoneteam:hover{
-    color:#00BFFF;              /* bleu vif */
-    text-shadow:0 0 6px #00BFFF;
-}
-
-.delf{
-    color:#D0FC08;
-    font-weight:700;
-     text-shadow:
-        -1px -1px 1px rgba(0,0,0,0.4),
-         1px -1px 1px rgba(0,0,0,0.4),
-        -1px  1px 1px rgba(0,0,0,0.4),
-         1px  1px 1px rgba(0,0,0,0.4);
 }
 
 .gobelin{
@@ -37,109 +12,124 @@
     font-weight:700;
 }
 
-.gobelin:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
-}
-
-.gobelinteam{
-    font-family:"Gutcruncher", sans-serif;
-    color:#8B1E3F;
+.delf{
+    color:#D0FC08;
     font-weight:700;
-    -webkit-text-stroke:0.1px black;
-}
-
-.gobelinteam:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
+    text-shadow:
+        -1px -1px 1px rgba(0,0,0,.4),
+         1px -1px 1px rgba(0,0,0,.4),
+        -1px  1px 1px rgba(0,0,0,.4),
+         1px  1px 1px rgba(0,0,0,.4);
 }
 
 .hobbit{
     color:#D9BC1E;
     font-weight:700;
-     text-shadow:
-        -1px -1px 1px rgba(0,0,0,0.4),
-         1px -1px 1px rgba(0,0,0,0.4),
-        -1px  1px 1px rgba(0,0,0,0.4),
-         1px  1px 1px rgba(0,0,0,0.4);
+    text-shadow:
+        -1px -1px 1px rgba(0,0,0,.4),
+         1px -1px 1px rgba(0,0,0,.4),
+        -1px  1px 1px rgba(0,0,0,.4),
+         1px  1px 1px rgba(0,0,0,.4);
 }
-    
+
 .kislev{
-    color:#FFFFFF;
+    color:#fff;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
-}
-
-.kislev:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
-}
-
-.kislevteam{
-    font-family:"Gutcruncher", sans-serif;
-    color:#FFFFFF;
-    font-weight:700;
-   -webkit-text-stroke: 0.1px black;
-}
-
-.kislevteam:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
+    -webkit-text-stroke:.1px black;
 }
 
 .necro{
     color:#45646b;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
-}
-
-.necro:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
-}
-
-.necroteam{
-    font-family:"Gutcruncher", sans-serif;
-    color:#45646b;
-    font-weight:700;
-   -webkit-text-stroke: 0.1px black;
-}
-
-.necroteam:hover{
-    color:#FF3030;              /* rouge vif */
-    text-shadow:0 0 6px #FF3030;
+    -webkit-text-stroke:.1px black;
 }
 
 .ogre{
     color:#FFA500;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke:.1px black;
 }
 
-.ogre:hover{
-    color:#00BFFF;              /* bleu vif */
-    text-shadow:0 0 6px #00BFFF;
+
+/* ==========================================================
+   TEAMS (noms des équipes)
+   ========================================================== */
+
+.amazoneteam{
+    font-family:"Gutcruncher",sans-serif;
+    color:#17BEBB;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
+}
+
+.gobelinteam{
+    font-family:"Gutcruncher",sans-serif;
+    color:#8B1E3F;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
+}
+
+.kislevteam{
+    font-family:"Gutcruncher",sans-serif;
+    color:#fff;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
+}
+
+.necroteam{
+    font-family:"Gutcruncher",sans-serif;
+    color:#45646b;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
 }
 
 .ogreteam{
-     font-family:"Gutcruncher", sans-serif;
+    font-family:"Gutcruncher",sans-serif;
     color:#FFA500;
     font-weight:700;
-   -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke:.1px black;
 }
 
+
+/* ==========================================================
+   HOVER ROUGE
+   ========================================================== */
+
+.gobelin:hover,
+.gobelinteam:hover,
+.kislev:hover,
+.kislevteam:hover,
+.necro:hover,
+.necroteam:hover{
+    color:#FF3030;
+    text-shadow:0 0 6px #FF3030;
+}
+
+
+/* ==========================================================
+   HOVER BLEU
+   ========================================================== */
+
+.amazone:hover,
+.amazoneteam:hover,
+.ogre:hover,
 .ogreteam:hover{
-    color:#00BFFF;              /* bleu vif */
+    color:#244BBF;
     text-shadow:0 0 6px #00BFFF;
 }
 
+
+/* ==========================================================
+   SCORE
+   ========================================================== */
+
 .score{
-    color:#FFFFFF;
+    color:#fff;
     font-weight:700;
     font-size:64px;
-     text-shadow:
-        -1px -1px 1px rgba(0,0,0,0.4),
-         1px -1px 1px rgba(0,0,0,0.4),
-        -1px  1px 1px rgba(0,0,0,0.4),
-         1px  1px 1px rgba(0,0,0,0.4);
+    text-shadow:
+        -1px -1px 1px rgba(0,0,0,.4),
+         1px -1px 1px rgba(0,0,0,.4),
+        -1px  1px 1px rgba(0,0,0,.4),
+         1px  1px 1px rgba(0,0,0,.4);
 }
