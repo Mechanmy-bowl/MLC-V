@@ -197,9 +197,9 @@ main::-webkit-scrollbar{
 .nom-gauche,
 .nom-droite{
     position:absolute;
-    bottom:180px;
+    bottom:150px;
     width:100%;
-    font-size:50px;
+    font-size:40px;
     font-weight:700;
 }
 
