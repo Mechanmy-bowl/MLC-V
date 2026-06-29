@@ -147,6 +147,20 @@ main::-webkit-scrollbar{
     transform:scale(1.15) rotate(-8deg);
 }
 
+ /* logos VERSUS */
+.logos-match{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.logos-match img{
+    width:clamp(80px, 15vw, 200px);
+    height:auto;
+}
+
 /* blocs illustration et texte */
 .bloc-gauche,
 .bloc-droite{
