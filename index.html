@@ -8,9 +8,13 @@
 <style>
 
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
+}
+
+.container {
     max-width: 900px;
-    background: #f4f4f4;
+    margin: 40px auto;
 }
 
 h1 {
@@ -27,27 +31,19 @@ h1 {
 }
 
 /* photos playoff */
-.photo-playoff{
-    margin:8px 0;
-    text-align:center;
+.photo-playoff {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
 }
 
-.photo-playoff img{
-    width:95%;
-    max-width:1400px;
-    height:auto;
-
-    border:3px solid #f5f5f5;
-    border-radius:6px;
-
-    background:#111;
-    padding:5px;
-
-    box-shadow:
-        0 0 25px rgba(0,0,0,.85),
-        0 0 6px rgba(255,255,255,.25);
-
-    transition:transform .2s;
+.photo-playoff img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .photo-playoff img:hover{
@@ -71,6 +67,7 @@ a {
 </style>
 </head>
 <body>
+    <div class="container">
 <div class="bg-left"></div>
 <h1>MLC V - Comptes-rendus de matchs</h1>
 
@@ -85,7 +82,7 @@ a {
             <div class="match">
         <a href="match32.html"> Match 32 - Bilpabo's Tiny Fingers vs Solmae's Rightslayers </a><br/>
             </div>
-    
+    </div>
 
   <div class="photo-playoff">
     <h3>Playoffs MLC V</h3>
