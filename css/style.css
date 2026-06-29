@@ -180,7 +180,7 @@ main::-webkit-scrollbar{
 }
 
 /* noms des équipes des blocs */
-K.nom-gauche,
+.nom-gauche,
 .nom-droite{
     position:absolute;
     bottom:120px;
@@ -197,7 +197,7 @@ K.nom-gauche,
 .nom-droite{
     text-align:right;
     right:85px;
-
+}
 
 /* forcer un espace depuis paragraphe bas/haut */
 .bas {
