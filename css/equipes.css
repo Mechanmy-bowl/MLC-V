@@ -34,8 +34,10 @@
 
     background:linear-gradient(
         to bottom,
-        #d00000 0%,
+        #d00000 0%, 
+        #d00000 40%,
         #ffffff 50%,
+        #008c45 60%
         #008c45 100%
     );
 
