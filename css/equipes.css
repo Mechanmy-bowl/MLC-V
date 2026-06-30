@@ -17,6 +17,11 @@
     font-weight:700;
 }
 
+.hlezard{
+   color:#a3cff3
+   font-weight:700;
+}
+      
 .hobbit{
     color:#D9BC1E;
     font-weight:700;
@@ -82,6 +87,10 @@
     -webkit-text-stroke:0.5px black;
 }
 
+.hlezardteam{
+   color:#a3cff3
+   font-weight:700;
+}
 .hobbitteam{
     color:#D9BC1E;
     font-weight:700;
