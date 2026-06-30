@@ -18,7 +18,7 @@
 }
 
 .hlezard{
-   color:#a3cff3;
+   color:#a3cff3
    font-weight:700;
 }
       
@@ -134,34 +134,17 @@
 
 
 /* ==========================================================
-   HOVER ROUGE
+   HOVER 
    ========================================================== */
 
-.delf:hover,
-.delfteam:hover,
-.gobelin:hover,
-.gobelinteam:hover,
-.kislev:hover,
-.kislevteam:hover,
-.necro:hover,
-.necroteam:hover{
-    color:#FF3030;
-    text-shadow:0 0 6px #FF3030;
+.bleu:hover{
+    color:#00BFFF !important;
+    text-shadow:0 0 6px #00BFFF;
 }
 
-
-/* ==========================================================
-   HOVER BLEU
-   ========================================================== */
-
-.amazone:hover,
-.amazoneteam:hover,
-.hobbit:hover,
-.hobbitteam:hover,
-.ogre:hover,
-.ogreteam:hover{
-    color:#00BFFF;
-    text-shadow:0 0 6px #00BFFF;
+.rouge:hover{
+    color:#FF3030 !important;
+    text-shadow:0 0 6px #FF3030;
 }
 
 
