@@ -59,11 +59,24 @@
     -webkit-text-stroke:.1px black;
 }
 
+.norsk{
+    color:#996633;
+    font-weight:700;
+    -webkit-text-stroke:1px black;
+}
+
 .ogre{
     color:#FFA500;
     font-weight:700;
     -webkit-text-stroke:.1px black;
 }
+
+.skaven{
+    color:#fbd532;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
+}
+
 
 
 /* ==========================================================
@@ -127,10 +140,22 @@
     -webkit-text-stroke:1px black;
 }
 
+.norskteam{
+    color:#996633;
+    font-weight:700;
+    -webkit-text-stroke:1px black;
+}
+
 .ogreteam{
     color:#FFA500;
     font-weight:700;
     -webkit-text-stroke:1px black;
+}
+
+.skaventeam{
+    color:#fbd532;
+    font-weight:700;
+    -webkit-text-stroke:.1px black;
 }
 
 
