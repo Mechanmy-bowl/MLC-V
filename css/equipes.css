@@ -7,15 +7,24 @@
     font-weight:700;
 }
 
-.gobelin{
-    color:#8B1E3F;
-    font-weight:700;
 }
 
 .delf{
     color:#D0FC08;
     font-weight:700;
 }
+
+.gobelin{
+    color:#8B1E3F;
+    font-weight:700;
+}
+
+
+.helf{
+    color:#304ca7;
+    font-weight:700;
+}
+
 
 .hlezard{
    color:#a3cff3;
@@ -77,6 +86,11 @@
     -webkit-text-stroke:0.5px white;
 }
 
+.welf{
+    color:##5bff4d;
+    font-weight:700;
+}
+
 
 
 /* ==========================================================
@@ -94,10 +108,17 @@
     font-weight:700;
 }
 
+
+
 .gobelinteam{
     color:#8B1E3F;
     font-weight:700;
     -webkit-text-stroke:0.5px black;
+}
+
+.helfteam{
+    color:#304ca7;
+    font-weight:700;
 }
 
 .hlezardteam{
@@ -156,6 +177,11 @@
     color:#ffcc00;
     font-weight:700;
     -webkit-text-stroke:0.5px white;
+}
+
+.welfteam{
+    color:##5bff4d;
+    font-weight:700;
 }
 
 
