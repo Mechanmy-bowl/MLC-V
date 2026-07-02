@@ -71,7 +71,7 @@
 .norsk{
     color:#996633;
     font-weight:700;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.1px black;
 }
 
 .ogre{
