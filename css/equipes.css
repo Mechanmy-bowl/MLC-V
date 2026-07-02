@@ -7,6 +7,10 @@
     font-weight:700;
 }
 
+
+.baf{
+    color:#330000;
+    font-weight:700;
 }
 
 .delf{
@@ -101,6 +105,11 @@
     color:#17BEBB;
     font-weight:700;
     -webkit-text-stroke:0.5px black;
+}
+
+.bafteam{
+    color:#330000;
+    font-weight:700;
 }
 
 .delfteam{
