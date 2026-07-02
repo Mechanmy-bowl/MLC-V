@@ -78,6 +78,11 @@
     -webkit-text-stroke:0.1px black;
 }
 
+.nurgle{
+    color:#9921D1;
+    font-weight:700;
+}
+
 .ogre{
     color:#FFA500;
     font-weight:700;
@@ -174,6 +179,11 @@
     color:#996633;
     font-weight:700;
     -webkit-text-stroke:1px black;
+}
+
+.nurgleteam{
+    color:#9921D1;
+    font-weight:700;
 }
 
 .ogreteam{
