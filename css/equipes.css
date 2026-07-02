@@ -95,6 +95,12 @@
     -webkit-text-stroke:0.1px white;
 }
 
+.vamp{
+    color:#000000;
+    font-weight:700;
+    -webkit-text-stroke:0.5px white;
+   }
+
 .welf{
     color:#5bff4d;
     font-weight:700;
@@ -197,6 +203,12 @@
     font-weight:700;
     -webkit-text-stroke:0.5px white;
 }
+
+.vampteam{
+    color:#000000;
+    font-weight:700;
+    -webkit-text-stroke:0.5px white;
+   }
 
 .welfteam{
     color:#5bff4d;
