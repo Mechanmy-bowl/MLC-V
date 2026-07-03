@@ -188,7 +188,7 @@ main::-webkit-scrollbar{
     background-position:center;
     background-size:contain;
 
-    opacity:.8;
+    opacity:.81;
     z-index:0;
     pointer-events:none;
 }
