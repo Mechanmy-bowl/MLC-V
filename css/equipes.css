@@ -86,7 +86,7 @@
 
 
 .nurgle{
-    color:#C95CFF;
+    color:#A927E8;
     font-weight:700;
 }
 
@@ -205,8 +205,9 @@
 }
 
 .nurgleteam{
-    color:#C95CFF;
+    color:#A927E8;
     font-weight:700;
+    -webkit-text-stroke:0.5px black;
 }
 
 .ogreteam{
@@ -227,7 +228,7 @@
 }
 
 .vampteam{
-    color:#666666;
+    color:#999999;
     font-weight:700;
     -webkit-text-stroke:0.3px red;
    }
