@@ -86,8 +86,7 @@
 
 
 .nurgle{
-    color:#BF3BFF;
-    /*color:#B32AF5;*/
+    color:#C95CFF;
     font-weight:700;
 }
 
@@ -206,8 +205,7 @@
 }
 
 .nurgleteam{
-    color:#BF3BFF;
-    /*color:#B32AF5;*/
+    color:#C95CFF;
     font-weight:700;
 }
 
@@ -229,9 +227,9 @@
 }
 
 .vampteam{
-    color:#000000;
+    color:#666666;
     font-weight:700;
-    -webkit-text-stroke:0.2px red;
+    -webkit-text-stroke:0.3px red;
    }
 
 .welfteam{
