@@ -144,26 +144,31 @@
     color:#17BEBB;
     font-weight:700;
     -webkit-text-stroke:0.5px black;
+       -webkit-text-stroke:0.7px white;
 }
 
 .bafteam{
     color:#801414;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .bretteam{
     color:#FF2E2E;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .chaosteam{
     color:#EB8A17;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .delfteam{
     color:#D0FC08;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 
@@ -171,34 +176,37 @@
 .gobelinteam{
     color:#8B1E3F;
     font-weight:700;
-    -webkit-text-stroke:0.5px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .helfteam{
     color:#00A2FF;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .hlezardteam{
    color:#a3cff3;
    font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .hobbitteam{
     color:#D9BC1E;
     font-weight:700;
-    -webkit-text-stroke:0.5px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .khemriteam{
     color:#F7DFAD;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
    
 .kislevteam{
     color:#fff;
     font-weight:700;
-    -webkit-text-stroke:0.5px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .nainteam{
@@ -218,6 +226,7 @@
 
     color:transparent;
     -webkit-text-fill-color:transparent;
+       -webkit-text-stroke:0.7px white;
 }
 
 .necroteam{
@@ -229,46 +238,49 @@
 .norskteam{
     color:#996633;
     font-weight:700;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .nurgleteam{
     color:#A927E8;
     font-weight:700;
-    -webkit-text-stroke:0.5px white;
+    -webkit-text-stroke:0.7px white;
 }
 
 .ogreteam{
     color:#FFA500;
     font-weight:700;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .orcteam{
     color:#FF9CF4;
     font-weight:700;
-    -webkit-text-stroke:.1px black;
+    -webkit-text-stroke:0.7px white;
 }
 
 .skaventeam{
     color:#ffcc00;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 .uelfteam{
     color:#9933ff;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
    }
 
 .vampteam{
     color:#333333;
     font-weight:700;
-    -webkit-text-stroke:0.3px white;
+    -webkit-text-stroke:0.7px white;
    }
 
 .welfteam{
     color:#5bff4d;
     font-weight:700;
+       -webkit-text-stroke:0.7px white;
 }
 
 
