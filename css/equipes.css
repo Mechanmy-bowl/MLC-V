@@ -207,7 +207,9 @@
    background:linear-gradient(
         to bottom,
         #d00000 0%,
+              #d00000 25%,
         #ffffff 50%,
+       #008c45 75%
         #008c45 100%
     );
 
