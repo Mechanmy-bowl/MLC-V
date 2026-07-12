@@ -280,12 +280,14 @@
     color:#00BFFF !important;
     text-shadow:0 0 6px #00BFFF;
    -webkit-text-fill-color: #00BFFF;
+   -text-shadow: 0 0 6px #00BFFF;
 }
 
 .rouge:hover{
     color:#FF3030 !important;
     text-shadow:0 0 6px #FF3030;
-       -webkit-text-fill-color: #00BFFF;
+       -webkit-text-fill-color: #FF3030;
+   - text-shadow: 0 0 6px #FF3030;
 }
 
 
