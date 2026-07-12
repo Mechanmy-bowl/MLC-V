@@ -204,20 +204,12 @@
 .nainteam{
     display:inline-block;
 
-    background:linear-gradient(
-        to bottom,
-        #ef605e 0%, 
-        #ef605e 50%,
-        #008c45 70%,
-        #008c45 100%
-    );
-   
-   /*  background:linear-gradient(
+   background:linear-gradient(
         to bottom,
         #d00000 0%,
         #ffffff 50%,
         #008c45 100%
-    );*/
+    );
 
     background-clip:text;
     -webkit-background-clip:text;
