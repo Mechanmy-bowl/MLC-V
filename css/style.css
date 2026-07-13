@@ -278,3 +278,9 @@ main::-webkit-scrollbar{
 
 }
 
+/* centraliser les tableaux */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
