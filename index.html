@@ -5,6 +5,49 @@
 <title>MLC V - Comptes rendus</title>
 <style>
 
+    /*Grille des matchs */
+.grille-matchs {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: left;
+}
+
+.colonne-matchs {
+    background: rgba(0,0,0,0.35);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.colonne-matchs h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #ffd34d;
+}
+
+.colonne-matchs a,
+.colonne-matchs span {
+    display: block;
+    margin: 8px 0;
+}
+
+.finale {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+    background: rgba(0,0,0,0.45);
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .grille-matchs {
+        grid-template-columns: 1fr;
+    }
+}
+    
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -31,13 +74,6 @@ h1 {
     text-align: center;
 }
 
-.match {
-    max-width:500px;
-    padding: 12px;
-    margin: 20px auto;   /* <-- centre le bloc */
-    border-radius: 8px;
-    text-align:left;
-}
 
 /* photos playoff */
 .photo-playoff {
@@ -64,50 +100,63 @@ h1 {
     text-shadow:0 2px 5px #000;
 }
 
-    
-a {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
 </style>
 </head>
 <body>
     <div class="container">
 <h1>MLC V - Comptes-rendus de matchs</h1>
 
-<p class="bas">Matchs terminés :</p>
-<div class="match">
-    <a href="match30.html">Match 30 - Perpi's Spicy Fruits vs Ierp's Gentleboomers</a><br>
-    <a href="match31.html">Match 31 - Dain's Brainwashers vs Adrial's Horsemen</a><br>
-    <a href="match32.html"> Match 32 - Bilpabo's Tiny Fingers vs Solmae's Rightslayers </a><br/>
-    <a href="match33.html"> Match 33 - Marrak's Katzmashers vs Tchoupi's Hornblasters </a><br/>
-    <a href="match34.html"> Match 34 - Nelartux Blue Scammers vs Zion's Green Avengers </a><br/>
-    <a href="match35.html"> Match 35 - Jaylini's Sticky Leechers vs Bizzar Razist Fhtagns </a><br/>
-    <a href="match36.html"> Match 36 - Gworkag's Eggheads vs Eighir's Indignants </a><br/>
+<div class="grille-matchs">
+
+    <div class="colonne-matchs">
+        <h2>Matchs 30 à 36</h2>
+
+        <a href="match30.html">Match 30 - Perpi's Spicy Fruits vs Ierp's Gentleboomers</a>
+        <a href="match31.html">Match 31 - Dain's Brainwashers vs Adrial's Horsemen</a>
+        <a href="match32.html">Match 32 - Bilpabo's Tiny Fingers vs Solmae's Rightslayers</a>
+        <a href="match33.html">Match 33 - Marrak's Katzmashers vs Tchoupi's Hornblasters</a>
+        <a href="match34.html">Match 34 - Nelartux Blue Scammers vs Zion's Green Avengers</a>
+        <a href="match35.html">Match 35 - Jaylini's Sticky Leechers vs Bizzar Razist Fhtagns</a>
+        <a href="match36.html">Match 36 - Gworkag's Eggheads vs Eighir's Indignants</a>
+    </div>
+
+    <div class="colonne-matchs">
+        <h2>Matchs 37 à 44</h2>
+
+        <span>Match 37 - Spip's Nighthowlers vs Yellow's Stormbrewers</span>
+        <span>Match 38 - Nelartux Blue Scammers vs Solmae's Rightslayers</span>
+        <span>Match 39 - Chaos Abysmal Shredders vs Eighir's Indignants</span>
+        <span>Match 40 - Zephiris Sneaky Pharaohs vs Adrial's Horsemen</span>
+        <span>Match 41 - Fouinezilla's Ironscales vs Marrak's Katzmashers</span>
+        <span>Match 42 - Hyperion's Gentlemen vs Jaylini's Sticky Leechers</span>
+        <span>Match 43 - Perpi's Spicy Fruits vs Kalmex Dead Thinkers</span>
+        <span>Match 44 - Toran's Uncolored Walkers vs Gworkag's Eggheads</span>
+    </div>
+
+    <div class="colonne-matchs">
+        <h2>Matchs 45 à 51</h2>
+
+        <span>Match 45 - À déterminer</span>
+        <span>Match 46 - À déterminer</span>
+        <span>Match 47 - À déterminer</span>
+        <span>Match 48 - À déterminer</span>
+        <span>Match 49 - À déterminer</span>
+        <span>Match 50 - À déterminer</span>
+        <span>Match 51 - À déterminer</span>
+    </div>
+
 </div>
 
-
-        <p class="bas">Matchs à venir : </p>
-            <div class="match">
-                              Match 37 - Spip's Nighthowlers vs Yellow's Stormbrewers <br/>
-                              Match 38 - Nelartux Blue Scammers vs Solmae's Rightslayers <br/>
-                              Match 39 - Chaos Abysmal Shredders vs Eighir's Indignants <br/>
-                              Match 40 - Zephiris Sneaky Pharaohs vs Adrial's Horsemen  <br/>
-                              Match 41 - Fouinezilla's Ironscales vs Marrak's Katzmashers <br/>
-                              Match 42 - Hyperion's Gentlemen vs Jaylini's Sticky Leechers <br/>
-                              Match 43 - Perpi's Spicy Fruits vs Kalmex Dead Thinkers <br/>
-                              Match 44 - Toran's Uncolored Walkers vs Gworkag's Eggheads <br/>
-                
-            </div>
-    </div>
+<div class="finale">
+    <h2>Grande Finale</h2>
+    <span>Match 52 - À déterminer</span>
+</div>
 
   <div class="photo-playoff">
     <img src="images/Fond-Arbre-Tournoi-2026T.png" alt="Playoffs MLC V">
     </div>
 
-
+    </div>
     
 </body>
 </html>
