@@ -55,11 +55,9 @@ main{
     margin:120px auto 10px auto;
 
     overflow:visible;
-
     padding:20px;
 
-    color:#fff;
-
+    /* Fondu du contenu vers le haut */
     -webkit-mask-image: linear-gradient(
         to bottom,
         transparent 0px,
