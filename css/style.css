@@ -104,11 +104,8 @@ main{
 main > *{
 
     width:1000px;
-
     max-width:95%;
-
     margin-left:auto;
-
     margin-right:auto;
 
 }
@@ -138,25 +135,13 @@ main{
 .menu-fixe{
 
     position:fixed;
-
     top:0;
-
-
     left:50%;
-
     transform:translateX(-50%);
-
-
     display:flex;
-
     flex-direction:row;
-
     align-items:center;
-
-
     gap:15px;
-
-
     z-index:1000;
 }
 
@@ -165,27 +150,16 @@ main{
 .menu-fixe a{
 
     display:flex;
-
     align-items:center;
-
-
     gap:30px;
-
-
     text-decoration:none;
-
-
     color:white;
-
     font-weight:bold;
-
     font-size:20px;
 
 
     text-shadow:
-
         2px 2px 2px #000,
-
         0 0 6px #000;
 
 }
@@ -193,29 +167,21 @@ main{
 
 
 .menu-fixe a:hover{
-
     color:#ffd34d;
 }
 
 
 
 .menu-fixe img{
-
     width:110px;
-
     height:110px;
-
-
     object-fit:contain;
-
-
     transition:transform .15s;
 }
 
 
 
 .menu-fixe a:hover img{
-
     transform:
         scale(1.15)
         rotate(-8deg);
@@ -226,26 +192,17 @@ main{
    ========================= */
 
 .logos-match{
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-
     gap:20px;
-
-
     flex-wrap:wrap;
 }
 
 
 
 .logos-match img{
-
     width:clamp(80px,15vw,200px);
-
     height:auto;
 }
 
@@ -258,28 +215,19 @@ main{
 
 .bloc-gauche,
 .bloc-droite{
-
     position:fixed;
-
     top:-40px;
-
-
     width:25vw;
-
     height:100vh;
 }
 
 
-
 .bloc-gauche{
-
     left:2%;
 }
 
 
-
 .bloc-droite{
-
     right:2%;
 }
 
@@ -289,25 +237,14 @@ main{
 
 .bg-left,
 .bg-right{
-
     width:100%;
-
     height:100%;
 
-
     background-repeat:no-repeat;
-
     background-position:center;
-
     background-size:contain;
-
-
     opacity:.8;
-
-
     z-index:0;
-
-
     pointer-events:none;
 }
 
@@ -317,22 +254,11 @@ main{
 
 .nom-gauche,
 .nom-droite{
-
     position:absolute;
-
-
     bottom:150px;
-
-
     width:100%;
-
-
     font-size:35px;
-
-
     font-weight:700;
-
-
     transition:
         transform .2s ease,
         text-shadow .2s ease;
@@ -341,18 +267,14 @@ main{
 
 
 .nom-gauche{
-
     text-align:left;
-
     left:20%;
 }
 
 
 
 .nom-droite{
-
     text-align:right;
-
     right:20%;
 }
 
@@ -364,15 +286,9 @@ main{
 .nom-droite:hover{
 
     transform:scale(1.1);
-
-
     text-shadow:
-
         0 0 8px currentColor,
-
         0 0 15px currentColor;
-
-
     cursor:pointer;
 }
 
@@ -384,14 +300,11 @@ main{
 
 
 .bas{
-
     margin-top:100px;
 }
 
 
-
 .haut{
-
     margin-bottom:100px;
 }
 
@@ -403,47 +316,24 @@ main{
 
 
 .photo-match{
-
     margin:8px 0;
-
     text-align:center;
 }
 
 
 
 .photo-match img{
-
     width:85%;
-
-
     max-width:900px;
-
-
     height:auto;
-
-
-
     border:3px solid #f5f5f5;
-
-
     border-radius:6px;
-
-
-
     background:#111;
-
-
     padding:5px;
-
-
-
+    
     box-shadow:
-
         0 0 25px rgba(0,0,0,.85),
-
         0 0 6px rgba(255,255,255,.25);
-
-
 
     transition:transform .2s;
 }
@@ -451,7 +341,6 @@ main{
 
 
 .photo-match img:hover{
-
     transform:scale(1.02);
 }
 
@@ -460,16 +349,10 @@ main{
 .photo-match h3{
 
     margin-bottom:12px;
-
-
     color:#ddd;
-
-
     font-size:1.3rem;
-
-
+    
     text-shadow:
-
         0 2px 5px #000;
 }
 
@@ -483,7 +366,6 @@ main{
 table{
 
     margin-left:auto;
-
     margin-right:auto;
 }
 
@@ -499,23 +381,19 @@ table{
 
     .bloc-gauche,
     .bloc-droite{
-
         display:none;
     }
 
 
 
     main > *{
-
         width:95%;
     }
 
 
 
     .menu-fixe img{
-
         width:80px;
-
         height:80px;
     }
 
