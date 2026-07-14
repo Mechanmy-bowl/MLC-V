@@ -219,6 +219,7 @@ main{
     top:-40px;
     width:25vw;
     height:100vh;
+        z-index:10;
 }
 
 
