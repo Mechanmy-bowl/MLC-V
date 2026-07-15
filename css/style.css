@@ -403,6 +403,6 @@ table{
 /* =========================
    IMAGE EN MIROIR HORIZONTAL
    ========================= */
-img.miroir {
+.miroir {
     transform: scaleX(-1);
 }
