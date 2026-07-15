@@ -399,3 +399,10 @@ table{
     }
 
 }
+
+/* =========================
+   IMAGE EN MIROIR HORIZONTAL
+   ========================= */
+img.miroir {
+    transform: scaleX(-1);
+}
