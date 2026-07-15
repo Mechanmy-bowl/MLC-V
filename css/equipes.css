@@ -119,13 +119,20 @@
     -webkit-text-stroke:0.1px white;
 }
 
-.vamp{
+
+
+.uelf{
+    color:#9933ff;
+    font-weight:700;
+   }
+
+.undead{
     color:#666666;
     font-weight:700;
    }
 
-.uelf{
-    color:#9933ff;
+.vamp{
+    color:#666666;
     font-weight:700;
    }
 
@@ -268,6 +275,12 @@
     color:#9933ff;
     font-weight:700;
        -webkit-text-stroke:0.7px white;
+   }
+
+.undeadteam{
+    color:#333333;
+    font-weight:700;
+    -webkit-text-stroke:0.7px white;
    }
 
 .vampteam{
