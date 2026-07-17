@@ -84,7 +84,7 @@
     -webkit-background-clip:text;
 
     color:transparent;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color:transparent;  #f74415 rouge vert #98d952
 }  */
 
 .nain{
@@ -93,11 +93,11 @@
 
     background:linear-gradient(
         to bottom,
-        #ef605e 0%, 
-        #ef605e 50%,
-        #008c45 65%,
-        #ef605e 75%,
-        #ef605e 100%
+        #f74415 0%, 
+        #f74415 50%,
+        #fff 65%,
+        #98d952 75%,
+        #98d952 100%
     );
 
     background-clip:text;
