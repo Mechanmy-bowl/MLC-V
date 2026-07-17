@@ -68,7 +68,7 @@
     -webkit-text-stroke:.1px black;
 }
 
-.nain{
+ /*.nain{    OLD OLD 
     display:inline-block;
      font-weight:700;
 
@@ -76,7 +76,26 @@
         to bottom,
         #ef605e 0%, 
         #ef605e 50%,
-       /* #ffffff 60%, */
+        #008c45 70%,
+        #008c45 100%
+    );
+
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+}  */
+
+.nain{
+    display:inline-block;
+     font-weight:700;
+
+    background:linear-gradient(
+        to bottom,
+        #008c45 0%, 
+        #008c45 60%,
+        #ef605e 65%,
         #008c45 70%,
         #008c45 100%
     );
