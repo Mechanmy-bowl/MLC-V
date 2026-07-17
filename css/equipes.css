@@ -93,11 +93,11 @@
 
     background:linear-gradient(
         to bottom,
-        #008c45 0%, 
-        #008c45 60%,
-        #ef605e 65%,
-        #008c45 70%,
-        #008c45 100%
+        #ef605e 0%, 
+        #ef605e 50%,
+        #008c45 65%,
+        #ef605e 75%,
+        #ef605e 100%
     );
 
     background-clip:text;
